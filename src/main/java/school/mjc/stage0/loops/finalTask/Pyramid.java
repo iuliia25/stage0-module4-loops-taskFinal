@@ -7,10 +7,10 @@ public class Pyramid {
                 System.out.print(" ");
             }
             for (int k = i; k >= 1; k--) {
-                System.out.print(" "+k);
+                System.out.print(k);
             }
             for (int l = 2; l<=i; l++) {
-                System.out.print(" "+l);
+                System.out.print(l);
             }
             System.out.println();
         }
